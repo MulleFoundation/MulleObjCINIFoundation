@@ -1,0 +1,10 @@
+sections: 5
+dosbox machine: vgaonly
+dosbox memsize: 4
+cpu cputype: 386
+cpu cycles: auto
+midi mpu401: uart
+midi mididevice: fluidsynth
+midi fluid.soundfont: ''
+sblaster sbtype: none
+mixer rate: 44100

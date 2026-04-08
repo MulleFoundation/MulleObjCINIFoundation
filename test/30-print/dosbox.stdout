@@ -1,0 +1,6 @@
+[cpu]
+cputype=386
+cycles=auto
+[dosbox]
+machine=vgaonly
+memsize=4

@@ -1,0 +1,6 @@
+quoted_string: 'Hello World'
+single_quoted: 'Single quotes'
+escaped_quotes: 'He said "Hello"'
+escaped_backslash: 'C:\Windows'
+key with spaces: 'value'
+plain: 'unquoted value'

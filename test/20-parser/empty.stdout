@@ -1,0 +1,7 @@
+global_key: 'global_value'
+another_global: '42'
+key: 'value'
+empty_value: ''
+EmptySection exists: 1
+EmptySection count: 0
+last: 'ok'

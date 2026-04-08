@@ -1,0 +1,4 @@
+key1: 'equals separator'
+key2: 'colon separator'
+key3: 'nospaces'
+key4: 'nospaces_colon'
