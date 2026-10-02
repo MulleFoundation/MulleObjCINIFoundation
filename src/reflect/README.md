@@ -2,18 +2,18 @@
 
 ## External consumption only
 
-### `MulleObjCIniFoundation-export.h`
+### `MulleObjCINIFoundation-export.h`
 
 This file is generated for the Objective-C envelope header (typically
-`MulleObjCIniFoundation
+`MulleObjCINIFoundation
 .h`). It contains the list of Objective-C headers that
 are advertised to consumers of this library
 
 
-### `MulleObjCIniFoundation-provide.h`
+### `MulleObjCINIFoundation-provide.h`
 
 This file is generated for the Objective-C or C envelope header (typically
-`MulleObjCIniFoundation
+`MulleObjCINIFoundation
 .h`). It contains the list of C headers that will be
 advertised to consumers of this library.
 
@@ -27,14 +27,14 @@ It's updated during a build.
 ## Internal and External consumption
 
 
-### `MulleObjCIniFoundation-import.h`
+### `MulleObjCINIFoundation-import.h`
 
 Objective-C dependency headers that this project uses are imported via
 this file. Dependencies are managed with `mulle-sde dependency`
 These dependencies are also available to consumers of this library.
 
 
-### `MulleObjCIniFoundation-include.h`
+### `MulleObjCINIFoundation-include.h`
 
 C dependency and library headers that this project uses are imported via
 this file. Dependencies are managed with `mulle-sde dependency`.
@@ -45,13 +45,13 @@ These dependencies are also available to consumers of this library.
 ## Internal consumption only
 
 
-### `MulleObjCIniFoundation-import-private.h`
+### `MulleObjCINIFoundation-import-private.h`
 
 Objective-C dependency headers that this project uses privately are imported
 via this file.
 
 
-### `MulleObjCIniFoundation-include-private.h`
+### `MulleObjCINIFoundation-include-private.h`
 
 C dependency and library headers that this project uses privately are imported
 via this file.

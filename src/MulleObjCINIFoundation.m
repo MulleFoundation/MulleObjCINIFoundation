@@ -1,6 +1,6 @@
 #import "import-private.h"
 
-#import "MulleObjCIniFoundation.h"
+#import "MulleObjCINIFoundation.h"
 
 
 

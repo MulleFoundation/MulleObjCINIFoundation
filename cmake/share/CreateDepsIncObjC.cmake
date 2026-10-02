@@ -19,8 +19,18 @@ if( NOT LIBRARY_NAME)
    set( LIBRARY_NAME "${PROJECT_NAME}")
 endif()
 
+if( NOT MULLE_SDE_REFLECT_DIR)
+   set( MULLE_SDE_REFLECT_DIR "reflect")
+endif()
+
+if( "$ENV{PROJECT_SOURCE_DIR}" STREQUAL "")
+   set( MULLE_SDE_REFLECT_SOURCE_DIR "src/${MULLE_SDE_REFLECT_DIR}")
+else()
+   set( MULLE_SDE_REFLECT_SOURCE_DIR "$ENV{PROJECT_SOURCE_DIR}/${MULLE_SDE_REFLECT_DIR}")
+endif()
+
 if( NOT OBJC_DEPS_INC)
-   set( OBJC_DEPS_INC "${CMAKE_CURRENT_SOURCE_DIR}/src/reflect/objc-deps.inc")
+   set( OBJC_DEPS_INC "${CMAKE_CURRENT_SOURCE_DIR}/${MULLE_SDE_REFLECT_SOURCE_DIR}/objc-deps.inc")
 endif()
 
 #
@@ -76,10 +86,10 @@ if( CREATE_OBJC_DEPS_INC)
 
    # The preferred way:
    #
-   # _1_MulleObjCIniFoundation is an object library (a collection of files).
-   # _2_MulleObjCIniFoundation is the deps with OBJC_DEPS_INC.
+   # _1_MulleObjCINIFoundation is an object library (a collection of files).
+   # _2_MulleObjCINIFoundation is the deps with OBJC_DEPS_INC.
    #
-   # Produce a static library _3_MulleObjCIniFoundation from _1_MulleObjCIniFoundation
+   # Produce a static library _3_MulleObjCINIFoundation from _1_MulleObjCINIFoundation
    # to feed into MULLE_OBJC_DEPS_TOOL.
    #
    # The static library is, so that the commandline doesn't overflow for

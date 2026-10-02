@@ -1,4 +1,4 @@
-#import <MulleObjCIniFoundation/MulleObjCIniFoundation.h>
+#import <MulleObjCINIFoundation/MulleObjCINIFoundation.h>
 
 
 /* Test: global section (@"") is written without a [header] and first */

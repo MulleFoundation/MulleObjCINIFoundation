@@ -1,4 +1,4 @@
-#import <MulleObjCIniFoundation/MulleObjCIniFoundation.h>
+#import <MulleObjCINIFoundation/MulleObjCINIFoundation.h>
 
 
 /* Test: quoted keys and values, escape sequences */

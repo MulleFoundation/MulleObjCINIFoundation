@@ -3,7 +3,7 @@
 #include <stdint.h>
 
 /*
- *  MulleObjCIniFoundation - INI/CFG config file parser and writer
+ *  MulleObjCINIFoundation - INI/CFG config file parser and writer
  *
  *  Copyright (C) 2024 Nat!, Mulle kybernetiK
  *  All rights reserved.
@@ -42,11 +42,11 @@ enum
 
 #import "MulleINIParser.h"
 #import "MulleObjCPropertyListPrinting+INI.h"
-#import "MulleObjCDeps+MulleObjCIniFoundation.h"
+#import "MulleObjCDeps+MulleObjCINIFoundation.h"
 
 
 #ifdef __has_include
-# if __has_include( "_MulleObjCIniFoundation-versioncheck.h")
-#  include "_MulleObjCIniFoundation-versioncheck.h"
+# if __has_include( "_MulleObjCINIFoundation-versioncheck.h")
+#  include "_MulleObjCINIFoundation-versioncheck.h"
 # endif
 #endif

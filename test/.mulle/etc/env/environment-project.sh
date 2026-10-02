@@ -8,13 +8,13 @@ export PROJECT_TYPE="none"
 #
 #
 #
-export PROJECT_NAME="MulleObjCIniFoundation-test"
+export PROJECT_NAME="MulleObjCINIFoundation-test"
 
 
 #
 #
 #
-export TEST_PROJECT_NAME="MulleObjCIniFoundation"
+export TEST_PROJECT_NAME="MulleObjCINIFoundation"
 
 
 #

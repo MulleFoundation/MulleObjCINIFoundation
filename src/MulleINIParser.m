@@ -1,6 +1,6 @@
 /*
  *  MulleINIParser.m
- *  MulleObjCIniFoundation
+ *  MulleObjCINIFoundation
  *
  *  Copyright (C) 2024 Nat!, Mulle kybernetiK
  *  All rights reserved.

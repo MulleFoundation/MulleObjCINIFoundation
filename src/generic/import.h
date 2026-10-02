@@ -20,7 +20,7 @@
  * that we assume to be there if "include.h" were to exist.
  */
 #ifdef __has_include
-# if __has_include( "_MulleObjCIniFoundation-include.h")
+# if __has_include( "_MulleObjCINIFoundation-include.h")
 #   include "include.h"
 # endif
 #else
@@ -61,6 +61,6 @@
    sourcetree, then you don't need it.
  */
 
-#import "_MulleObjCIniFoundation-import.h"
+#import "_MulleObjCINIFoundation-import.h"
 
 /* You can add some more import statements here */

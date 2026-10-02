@@ -12,7 +12,7 @@ endif()
 #
 set( SOURCES
 src/MulleINIParser.m
-src/MulleObjCIniFoundation.m
+src/MulleObjCINIFoundation.m
 src/MulleObjCPropertyListPrinting+INI.m
 src/NSPropertyListSerialization+INI.m
 )
@@ -21,5 +21,5 @@ src/NSPropertyListSerialization+INI.m
 # contents selected with patternfile ??-source--stage2-sources
 #
 set( STAGE2_SOURCES
-src/generic/MulleObjCDeps+MulleObjCIniFoundation.m
+src/generic/MulleObjCDeps+MulleObjCINIFoundation.m
 )

@@ -20,7 +20,7 @@ export PROJECT_ASSET_DIR="DEFAULT"
 #
 #
 #
-export PROJECT_NAME="MulleObjCIniFoundation"
+export PROJECT_NAME="MulleObjCINIFoundation"
 
 
 #

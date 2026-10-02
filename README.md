@@ -1,6 +1,6 @@
-# MulleObjCIniFoundation
+# MulleObjCINIFoundation
 
-#### 🛸 MulleObjCIniFoundation does something
+#### 🛸 MulleObjCINIFoundation does something
 
 It works, sometimes.
 
@@ -13,8 +13,8 @@ recursive package management with cross-platform builds via **cmake**:
 | Action  | Command                               | Description               |
 |---------|---------------------------------------|---------------------------|
 | Build   | `mulle-sde craft [--release/--debug]` | Builds into local `kitchen` folder |
-| Add     | `mulle-sde dependency add --c --github <|GITHUB_USER|> MulleObjCIniFoundation` | Add MulleObjCIniFoundation to another mulle-sde project as a dependency |
-| Install | `mulle-sde install --prefix /usr/local https://github.com/<|GITHUB_USER|>/MulleObjCIniFoundation.git` | Like `make install` |
+| Add     | `mulle-sde dependency add --c --github <|GITHUB_USER|> MulleObjCINIFoundation` | Add MulleObjCINIFoundation to another mulle-sde project as a dependency |
+| Install | `mulle-sde install --prefix /usr/local https://github.com/<|GITHUB_USER|>/MulleObjCINIFoundation.git` | Like `make install` |
 
 
 ### Manual Installation

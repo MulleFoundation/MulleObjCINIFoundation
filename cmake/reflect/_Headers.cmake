@@ -20,8 +20,8 @@ src
 # contents selected with patternfile ??-header--private-generated-headers
 #
 set( PRIVATE_GENERATED_HEADERS
-src/reflect/_MulleObjCIniFoundation-import-private.h
-src/reflect/_MulleObjCIniFoundation-include-private.h
+src/reflect/_MulleObjCINIFoundation-import-private.h
+src/reflect/_MulleObjCINIFoundation-include-private.h
 )
 
 #
@@ -36,10 +36,10 @@ src/generic/include-private.h
 # contents selected with patternfile ??-header--public-generated-headers
 #
 set( PUBLIC_GENERATED_HEADERS
-src/reflect/_MulleObjCIniFoundation-export.h
-src/reflect/_MulleObjCIniFoundation-import.h
-src/reflect/_MulleObjCIniFoundation-include.h
-src/reflect/_MulleObjCIniFoundation-provide.h
+src/reflect/_MulleObjCINIFoundation-export.h
+src/reflect/_MulleObjCINIFoundation-import.h
+src/reflect/_MulleObjCINIFoundation-include.h
+src/reflect/_MulleObjCINIFoundation-provide.h
 )
 
 #
@@ -55,8 +55,8 @@ src/generic/include.h
 #
 set( PUBLIC_HEADERS
 src/MulleINIParser.h
-src/MulleObjCIniFoundation.h
+src/MulleObjCINIFoundation.h
 src/MulleObjCPropertyListPrinting+INI.h
-src/generic/MulleObjCDeps+MulleObjCIniFoundation.h
+src/generic/MulleObjCDeps+MulleObjCINIFoundation.h
 )
 

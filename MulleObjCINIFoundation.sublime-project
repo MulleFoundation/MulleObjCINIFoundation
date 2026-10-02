@@ -1,8 +1,8 @@
 {
    "settings":
    {
-      "sublimegdb_workingdir": "${folder:kitchen/Debug/MulleObjCIniFoundation}",
-      "sublimegdb_commandline": "mulle-gdb --interpreter=mi kitchen/Debug/MulleObjCIniFoundation",
+      "sublimegdb_workingdir": "${folder:kitchen/Debug/MulleObjCINIFoundation}",
+      "sublimegdb_commandline": "mulle-gdb --interpreter=mi kitchen/Debug/MulleObjCINIFoundation",
    },
    "folders":
    [

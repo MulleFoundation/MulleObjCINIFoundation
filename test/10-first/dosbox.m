@@ -1,4 +1,4 @@
-#import <MulleObjCIniFoundation/MulleObjCIniFoundation.h>
+#import <MulleObjCINIFoundation/MulleObjCINIFoundation.h>
 
 
 static char *dosbox_ini =

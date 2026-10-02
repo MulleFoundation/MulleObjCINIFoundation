@@ -3,11 +3,11 @@
  *   `mulle-sde reflect` and any edits will be lost.
  *   Suppress generation of this file with:
  *
- *      mulle-sde environment set MULLE_SOURCETREE_TO_C_IMPORT_FILE DISABLE
+ *      mulle-sde environment --global set MULLE_SOURCETREE_TO_C_IMPORT_FILE DISABLE
  *
  *   To not let mulle-sourcetree-to-c generate any header files:
  *
- *      mulle-sde environment set MULLE_SOURCETREE_TO_C_RUN DISABLE
+ *      mulle-sde environment --global set MULLE_SOURCETREE_TO_C_RUN DISABLE
  *
  */
 
@@ -42,8 +42,8 @@
 #import <MulleFoundationBase/MulleFoundationBase.h>   // MulleFoundationBase
 
 #ifdef __has_include
-# if __has_include( "_MulleObjCIniFoundation-include.h")
-#  include "_MulleObjCIniFoundation-include.h"
+# if __has_include( "_MulleObjCINIFoundation-include.h")
+#  include "_MulleObjCINIFoundation-include.h"
 # endif
 #endif
 

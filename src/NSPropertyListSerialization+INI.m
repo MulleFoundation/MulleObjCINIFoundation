@@ -1,6 +1,6 @@
 /*
  *  NSPropertyListSerialization+INI.m
- *  MulleObjCIniFoundation
+ *  MulleObjCINIFoundation
  *
  *  Copyright (C) 2024 Nat!, Mulle kybernetiK
  *  All rights reserved.
@@ -11,7 +11,7 @@
 
 #import "MulleINIParser.h"
 #import "MulleObjCPropertyListPrinting+INI.h"
-#import "MulleObjCIniFoundation.h"
+#import "MulleObjCINIFoundation.h"
 
 
 @implementation NSPropertyListSerialization( INI)

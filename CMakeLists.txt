@@ -8,7 +8,7 @@
 #
 cmake_minimum_required( VERSION 3.13...99.99)
 
-project( MulleObjCIniFoundation VERSION 0.0.1 LANGUAGES C)
+project( MulleObjCINIFoundation VERSION 0.0.1 LANGUAGES C)
 
 # if use embedded project with symlinks and you want to distribute their
 # headers you probably need to turn this on
@@ -94,8 +94,8 @@ elseif( "${MULLE_PROJECT_TYPE}" STREQUAL "Library")
    include( InstallLibrary)
 
    if( LINK_PHASE)
-      include( InstallCMakeInclude)
-      include( InstallCMakePackage)
+      include( AddSubdirectorySupport)
+      include( FindPackageSupport)
    endif()
 
 else()
