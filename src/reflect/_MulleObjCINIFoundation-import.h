@@ -12,21 +12,6 @@
  */
 
 // To remove the following dependency (headers and library) completely:
-//   `mulle-sde dependency remove MulleObjC`
-// (Use 33799899-6D5F-4C30-9917-424EAB08BF47 instead of MulleObjC, if there are duplicate entries)
-//
-// You can tweak the following #import with these commands:
-//    remove #import      : `mulle-sde dependency mark MulleObjC no-header`
-//    rename              : `mulle-sde dependency|library set MulleObjC include whatever.h`
-//    reorder             : `mulle-sde dependency move MulleObjC <up|down>`
-//    toggle objc         : `mulle-sde dependency mark MulleObjC [no-]import`
-//    toggle public       : `mulle-sde dependency mark MulleObjC [no-]public`
-//    toggle optional     : `mulle-sde dependency mark MulleObjC [no-]require`
-//    remove for platform : `mulle-sde dependency mark MulleObjC no-platform-<uname>`
-//        (use `mulle-sourcetree-to-c --unames` to list known values)
-#import <MulleObjC/MulleObjC.h>   // MulleObjC
-
-// To remove the following dependency (headers and library) completely:
 //   `mulle-sde dependency remove MulleFoundationBase`
 // (Use A58F6928-84A8-4F56-B0D9-28C558EEDD95 instead of MulleFoundationBase, if there are duplicate entries)
 //
