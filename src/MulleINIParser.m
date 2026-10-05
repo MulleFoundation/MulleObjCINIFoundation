@@ -93,6 +93,8 @@ static char *   scan_double_quoted( char **p, char *end, size_t *out_len)
       *dst++ = *src++;
    }
 
+   *dst = '\0';  /* buffer has room for cap bytes, dst is at most cap - 1 */
+
    if( src >= end)  /* unclosed quote — keep what we have */
    {
       *out_len = (size_t)(dst - buf);
