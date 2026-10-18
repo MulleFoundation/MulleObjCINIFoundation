@@ -1,39 +1,60 @@
-# MulleObjCINIFoundation
+# 
 
-#### 🛸 MulleObjCINIFoundation does something
-
-It works, sometimes.
+#### 
 
 
-## mulle-sde
 
-This is a [mulle-sde](//github.com/mulle-sde) project. mulle-sde combines
-recursive package management with cross-platform builds via **cmake**:
 
-| Action  | Command                               | Description               |
-|---------|---------------------------------------|---------------------------|
-| Build   | `mulle-sde craft [--release/--debug]` | Builds into local `kitchen` folder |
-| Add     | `mulle-sde dependency add --c --github <|GITHUB_USER|> MulleObjCINIFoundation` | Add MulleObjCINIFoundation to another mulle-sde project as a dependency |
-| Install | `mulle-sde install --prefix /usr/local https://github.com/<|GITHUB_USER|>/MulleObjCINIFoundation.git` | Like `make install` |
 
+
+## Documentation & Guides
+
+* [API Summary](asset/dox/api/toc)
+
+
+
+
+
+### You are here
+
+![Overview](overview.dot.svg)
+
+## Add
+
+Use [mulle-sde](//github.com/mulle-sde) to add  to your project:
+
+``` sh
+mulle-sde add :/
+```
+
+## Install
+
+Use [mulle-sde](//github.com/mulle-sde) to build and install :
+
+``` sh
+mulle-sde install --prefix /usr/local \
+   https://github.com///archive/latest.tar.gz
+```
 
 ### Manual Installation
 
+Download the latest [tar](https://github.com///archive/refs/tags/latest.tar.gz) or [zip](https://github.com///archive/refs/tags/latest.zip) archive and unpack it.
 
-Install the requirements:
-
-| Requirements                                      | Description             |
-|---------------------------------------------------|-------------------------|
-| [some-requirement](//github.com/some/requirement) | Some requirement        |
-
-
-Install into `/usr/local`:
+Install **** into `/usr/local` with [cmake](https://cmake.org):
 
 ``` sh
-cmake -B build \
-      -DCMAKE_INSTALL_PREFIX=/usr/local \
-      -DCMAKE_PREFIX_PATH=/usr/local \
+PREFIX_DIR="/usr/local"
+cmake -B build                               \
+      -DMULLE_SDK_PATH="${PREFIX_DIR}"       \
+      -DCMAKE_INSTALL_PREFIX="${PREFIX_DIR}" \
+      -DCMAKE_PREFIX_PATH="${PREFIX_DIR}"    \
       -DCMAKE_BUILD_TYPE=Release &&
 cmake --build build --config Release &&
 cmake --install build --config Release
 ```
+
+## Author
+
+[Nat!](https://mulle-kybernetik.com/weblog) for Mulle kybernetiK  
+
+
